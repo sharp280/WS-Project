@@ -1,0 +1,117 @@
+body {
+  font-family: "Palanquin", sans-serif;
+  background-color: #cca2db;
+  margin: 0%;
+}
+/* The navigation bar */
+.bar {
+  overflow: hidden;
+  background-color: #7b48a4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: auto;
+}
+/* Links inside the navbar */
+.bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 4px 4px 4px;
+  margin-top: 14px;
+  margin-left: 32px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.bar a:hover {
+  background: #420c6c;
+  color: lightcyan;
+}
+.logo {
+  padding: 7px 0px 7px 368px;
+  float: left;
+}
+.home {
+  margin-left: 100px;
+}
+/* FACE */
+.slider {
+  position: relative;
+  z-index: 1;
+}
+
+.background {
+  position: absolute;
+  width: 1547.49px;
+  height: 1038.85px;
+  left: -257px;
+  top: 69.87px;
+  margin: 0%;
+  background: url(1656011665_6-beolin-club-p-tsveti-sakuri-risunok-prostoi-krasivo-6.png);
+  mix-blend-mode: soft-light;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: rotate(-1.54deg);
+}
+.text {
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 142px;
+
+  text-align: center;
+  letter-spacing: 0.18em;
+}
+/* FRAME */
+.frame {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  width: 358px;
+  height: 419px;
+  left: 358px;
+  top: 159px;
+  background: url("./img/.frame.png");
+}
+.frame-1 {
+  position: absolute;
+  width: 345px;
+  height: 419px;
+  left: 1163px;
+  top: 185px;
+}
+/* NAME */
+
+.vik {
+  position: absolute;
+  width: 320px;
+  height: 353px;
+  left: 425px;
+  top: 588px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+
+  text-align: center;
+  letter-spacing: 0.18em;
+}
+
+.art {
+  position: absolute;
+  width: 319px;
+  height: 302px;
+  left: 1176px;
+  top: 588px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.18em;
+
+  color: #000000;
+}
