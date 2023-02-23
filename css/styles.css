@@ -40,8 +40,44 @@ body {
   border-radius: 19px;
   margin-top: 4px;
 }
+.text-nav {
+  margin-top: 8px;
+}
 .home {
   margin-left: 600px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+.conntacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+.server {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+.anime {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+
+  text-align: center;
 }
 /* FACE */
 .slider {
@@ -121,4 +157,128 @@ body {
   letter-spacing: 0.18em;
 
   color: #000000;
+}
+/* Background page-2 */
+.guren {
+  position: absolute;
+  width: 270px;
+  height: 226px;
+  left: 375px;
+  top: 125px;
+}
+.tyan {
+  position: absolute;
+  width: 270px;
+  height: 226px;
+  left: 825px;
+  top: 427px;
+}
+.hory {
+  position: absolute;
+  width: 270px;
+  height: 226px;
+  left: 1275px;
+  top: 125px;
+}
+.ottaku {
+  position: absolute;
+  width: 270px;
+  height: 226px;
+  left: 1275px;
+  top: 810px;
+}
+.vnuk {
+  position: absolute;
+  width: 270px;
+  height: 226px;
+  left: 375px;
+  top: 810px;
+}
+.line {
+  position: absolute;
+  width: 1816.7px;
+  height: 410.45px;
+  left: 31.5px;
+  top: 357.05px;
+}
+/* Text-page-2 */
+.text-guren {
+  position: absolute;
+  width: 300px;
+  height: 479px;
+  left: 56px;
+  top: 128px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+.text-tyan {
+  position: absolute;
+  width: 177px;
+  height: 60px;
+  left: 872px;
+  top: 628px;
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+.text-ottaku {
+  position: absolute;
+  width: 324px;
+  height: 324px;
+  left: 1560px;
+  top: 716px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+.text-vnuk {
+  position: absolute;
+width: 296px;
+height: 257px;
+left: 57px;
+top: 760px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* or 119% */
+
+text-align: center;
+letter-spacing: 0.15em;
+}
+.text-hory {
+  position: absolute;
+  width: 298px;
+  height: 493px;
+  left: 1576px;
+  top: 79px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+.arows {
+  position: absolute;
+  width: 682.71px;
+  height: 550.04px;
+  left: 617px;
+  top: 281px;
 }
