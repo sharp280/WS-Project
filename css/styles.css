@@ -25,14 +25,12 @@ body {
   margin-left: 32px;
   margin-bottom: 10px;
   text-decoration: none;
-  
 }
 
 /* Change background on mouse-over */
 .bar a:hover {
   background: #420c6c;
   color: lightcyan;
-  
 }
 .logo {
   float: left;
@@ -94,13 +92,20 @@ body {
   width: 1547.49px;
   height: 1038.85px;
   left: -257px;
-  top: 69.87px;
+  top: 14px;
   margin: 0%;
   background: url(1656011665_6-beolin-club-p-tsveti-sakuri-risunok-prostoi-krasivo-6.png);
   mix-blend-mode: soft-light;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transform: rotate(-1.54deg);
+}
+.back {
+  position: absolute;
+  width: 610px;
+  height: 1023px;
+  left: 655px;
+  top: 50px;
 }
 .text {
   font-weight: 100;
@@ -226,7 +231,7 @@ body {
   height: 60px;
   left: 872px;
   top: 628px;
-  
+
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -251,18 +256,18 @@ body {
 }
 .text-vnuk {
   position: absolute;
-width: 296px;
-height: 257px;
-left: 57px;
-top: 760px;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* or 119% */
+  width: 296px;
+  height: 257px;
+  left: 57px;
+  top: 760px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* or 119% */
 
-text-align: center;
-letter-spacing: 0.15em;
+  text-align: center;
+  letter-spacing: 0.15em;
 }
 .text-hory {
   position: absolute;
@@ -286,3 +291,236 @@ letter-spacing: 0.15em;
   left: 617px;
   top: 281px;
 }
+/* page-3 */
+.away {
+  position: absolute;
+  width: 203px;
+  height: 118px;
+  left: 1039px;
+  top: 449px;
+
+  background: url(ulpwkozn.png);
+  mix-blend-mode: normal;
+}
+.blade {
+  position: absolute;
+  width: 203px;
+  height: 124px;
+  left: 1039px;
+  top: 730px;
+  
+  background: url(0fjtyg0t.png);
+  mix-blend-mode: normal;
+}
+.dragonball {
+  position: absolute;
+  width: 203px;
+  height: 118px;
+  left: 1039px;
+  top: 310px;
+
+  background: url(1kid2wxw.png);
+  mix-blend-mode: normal;
+}
+.fullmetal {
+  position: absolute;
+  width: 203px;
+  height: 117px;
+  left: 1039px;
+  top: 171px;
+
+  background: url(xfch9zrz.png);
+  mix-blend-mode: normal;
+}
+.jojo {
+  position: absolute;
+  width: 203px;
+  height: 118px;
+  left: 678px;
+  top: 310px;
+
+  background: url(cghq3ab3.png);
+}
+.man {
+  position: absolute;
+  width: 203px;
+  height: 118px;
+  left: 1039px;
+  top: 588px;
+
+  background: url(zjcx11nj.png);
+  mix-blend-mode: normal;
+}
+.note {
+  position: absolute;
+  width: 203px;
+  height: 118px;
+  left: 678px;
+  top: 588px;
+
+  background: url(w6hx4qsv.png);
+  mix-blend-mode: normal;
+}
+.one-piece {
+  position: absolute;
+  width: 203px;
+  height: 124px;
+  left: 678px;
+  top: 727px;
+
+  background: url(276os6m6.png);
+  mix-blend-mode: normal;
+}
+.stein {
+  position: absolute;
+  width: 203px;
+  height: 118px;
+  left: 678px;
+  top: 446px;
+
+  background: url(hlto4a84.png);
+  mix-blend-mode: normal;
+}
+.titan {
+  position: absolute;
+  width: 197px;
+  height: 117px;
+  left: 681px;
+  top: 171px;
+
+  background: url(9sx9ww7p.png);
+  background-blend-mode: luminosity;
+  mix-blend-mode: normal;
+}
+/* Text page-3 */
+.Attack-on-titan {
+  position: absolute;
+  width: 250px;
+  left: 655px;
+  top: 152px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.JoJo-Bizarre-Adventure {
+  position: absolute;
+  width: 250px;
+  left: 655px;
+  top: 288px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.Stein-Gate {
+  position: absolute;
+  width: 250px;
+  left: 655px;
+  top: 429px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.Death-Note {
+  position: absolute;
+  width: 250px;
+  left: 655px;
+  top: 568px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.One-Piece {
+  position: absolute;
+  width: 250px;
+  left: 655px;
+  top: 709px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.Fullmetal-Alchemist {
+  position: absolute;
+  width: 250px;
+  left: 1015px;
+  top: 152px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.Dragonball {
+  position: absolute;
+  width: 250px;
+  left: 1015px;
+  top: 288px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.Spirited-Away {
+  position: absolute;
+  width: 250px;
+  left: 1015px;
+  top: 429px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.One-Punch-Man {
+  position: absolute;
+  width: 250px;
+  left: 1015px;
+  top: 568px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+.Demon-Slayer {
+  position: absolute;
+  width: 250px;
+  left: 1014px;
+  top: 709px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0%;
+}
+
